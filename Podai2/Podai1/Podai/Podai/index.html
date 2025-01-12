@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal UTHH</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+        <ul class="menu">
+            <li><a href="index.html">Cerrar sesión</a></li>
+            <li><a href="Contraeña.html">Datos de usuario</a></li>
+            <li><a href="#">Consultar mis calificaciones</a></li>
+            <li><a href="#">Entrevista inicial</a></li>
+            <li><a href="Pago.html">Pagos</a></li>
+            <li><a href="#">Agenda</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+      
+        <header class="header">
+            <div class="header-content">
+                <img src="utth.jpg" alt="Logo UTHH" class="logo">
+                <img src="estado.jpg" alt="Logo Estado" class="logo">
+            </div>
+        </header>
+
+        <div class="header-content2">
+            <p class="sub-header">Portal Digital de Atención Integral a Estudiantes de la UTHH</p>
+            <p class="fecha">Hoy es, Viernes, 10 de enero de 2025</p>
+        </div>
+
+ 
+        <main class="main">
+            <section class="welcome-box">
+                <h2>Bienvenido</h2>
+                <p><strong>RUTH BARRIENTOS ANGELES</strong></p>
+                <p>ALUMNO DEL 4to. CUATRIMESTRE, GRUPO C</p>
+                <p>SEPTIEMBRE-DICIEMBRE 20243</p>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>Carretera Huejutla - Chalmahuiyapa S/N, C.P. 43000, Huejutla de Reyes, Hidalgo.</p>
+        <p>Teléfonos: 789 8962088 al 91</p>
+        <p>E-mail: rectoria@uthh.edu.mx</p>
+        <p>Universidad Tecnológica de la Huasteca Hidalguense</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const menu = document.querySelector(".menu");
+
+            menuToggle.addEventListener("click", () => {
+                menu.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+</html>

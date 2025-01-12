@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal UTHH</title>
+    <link rel="stylesheet" href="StyleContra.css">
+    <style>
+        
+    </style>
+</head>
+<nav class="navbar">
+  <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+  <ul class="menu">
+    <li><a href="Bienvenida.html">Cerrar sesión</a></li>
+    <li><a href="Contraeña.html">Datos de usuario</a></li>
+    <li><a href="#">Consultar mis calificaciones</a></li>
+    <li><a href="#">Entrevista inicial</a></li>
+    <li><a href="Pago.html">Pagos</a></li>
+    <li><a href="#">Agenda</a></li>
+  </ul>
+</nav>
+<body>
+    <div class="container">
+     
+        <header class="header">
+            <div class="header-content">
+                <img src="utth.jpg" alt="Logo UTHH" class="logo">
+                <img src="estado.jpg" alt="Logo Estado" class="logo">
+            </div>
+        </header>
+        <div class="header-content2">
+            <p class="sub-header">Portal Digital de Atención Integral a Estudiantes de la UTHH</p>
+            <p class="fecha">Hoy es, Viernes, 10 de enero de 2025</p>
+        </div>
+
+        <div class="container">
+          <h1 style="text-align: center;">Cambiar Contraseña</h1>
+          <p style="text-align: center;">RUTH BARRIENTOS ANGELES</p>
+      
+          <div class="form-container">
+          <h2>Cambiar contraseña</h2>
+          <form action="#" method="POST">
+              <label for="current-password">Contraseña Actual:</label>
+              <input type="password" id="current-password" name="current-password" required><br>
+      
+              <label for="new-password">Contraseña Nueva:</label>
+              <input type="password" id="new-password" name="new-password" required>
+      
+              <label for="confirm-password">Confirmar Contraseña:</label>
+              <input type="password" id="confirm-password" name="confirm-password" required>
+      
+              <input type="submit" value="Aceptar">
+              <input type="button" value="Cancelar" onclick="window.location.href='#';">
+          </form>
+          </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>Carretera Huejutla - Chalmahuiyapa S/N, C.P. 43000, Huejutla de Reyes ,Hidalgo.</p>
+      <p>Teléfonos: 789 8962088 al 91</p>
+      <p>E-mail: rectoria@uthh.edu.mx</p>
+      <p>Universidad Tecnológica de la Huasteca Hidalguense</p>
+  </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const menu = document.querySelector(".menu");
+
+            menuToggle.addEventListener("click", () => {
+                menu.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,421 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #ccb653;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    max-height: 60px;
+}
+
+.header-content2 {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.sub-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fecha {
+    font-size: 14px;
+    color: #555;
+}
+
+.student-info {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.student-name {
+    color: #228B22;
+}
+
+.warning {
+    text-align: center;
+    color: #f00;
+    margin: 15px 0;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #f00;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+h2 {
+    background-color: #e6e4de;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .menu-toggle {
+    display: none;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        padding: 0;
+    }
+
+    .navbar .menu.active {
+        display: flex;
+    }
+
+    .navbar .menu-toggle {
+        display: block;
+    }
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+    .logo {
+        height: 60px;
+    }
+
+    .sub-header {
+        font-size: 0.9rem;
+    }
+
+    .welcome-box {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .footer {
+        background-color: #3c3c3c;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .footer a {
+        color: white;
+        text-decoration: none;
+    }
+.container {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.container p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    text-align: left;
+}
+
+.form-container h2 {
+    font-size: 1.5rem;
+
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.container {
+background-color: #ffffff;
+border: 1px solid #ccc;
+max-width: 500px;
+margin: 50px auto;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+font-size: 1.8rem;
+color: #333;
+margin-bottom: 10px;
+}
+
+.container p {
+font-size: 1rem;
+margin-bottom: 20px;
+}
+
+.form-container {
+text-align: left;
+}
+
+.form-container h2 {
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+
+.form-container label {
+display: block;
+font-size: 1rem;
+margin-bottom: 5px;
+}
+
+
+
+.header {
+    background-color: #ccb653;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    max-height: 80px;
+}
+
+.header-content2 {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.sub-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fecha {
+    font-size: 14px;
+    color: #555;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .menu-toggle {
+    display: none;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        padding: 0;
+    }
+
+    .navbar .menu.active {
+        display: flex;
+    }
+
+    .navbar .menu-toggle {
+        display: block;
+    }
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
